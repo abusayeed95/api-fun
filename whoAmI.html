@@ -15,7 +15,7 @@
 
     <script>
         function doSomething() {
-            fetch("https://randomuser.me/api/?results=5000")
+            fetch("https://randomuser.me/api/")
                 .then(res => res.json())
                 .then(detail => {
                     const data = detail.results[0].name;
